@@ -1,0 +1,16 @@
+*{
+    margin: 0 auto;
+}
+.navbar{
+    
+    background-color: rgb(8, 34, 141);
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    
+   
+}
+.logoContainer{
+   color: white;
+   width: 25%;
+   text-align: center;
+}

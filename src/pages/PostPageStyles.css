@@ -1,0 +1,17 @@
+.contentContainer{
+    display: flex;
+    
+    align-items: center;
+    font-size: 20px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border: 0px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

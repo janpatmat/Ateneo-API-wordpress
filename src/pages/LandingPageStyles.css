@@ -1,0 +1,36 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* 4 columns, each 200px wide */
+    grid-template-rows: repeat(3, auto); /* 3 rows, each with auto height */
+    grid-column-gap: 11rem;
+    grid-row-gap: 0.5rem; /* Adjust the row gap as needed */
+    height: 100vh;
+    justify-content: center;
+  }
+  .heroSection{
+    background-image: url('../../assets/adu.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .overLay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(8,20,40,0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 3rem;
+  }
+
+  .headerDiv{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: rgb(8, 34, 141);
+    text-align: center;
+    color: white;
+  }

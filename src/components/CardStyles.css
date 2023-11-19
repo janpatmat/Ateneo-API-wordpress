@@ -1,0 +1,27 @@
+.cardContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(8, 34, 141);
+    color: white; */
+   border: 2px;
+   border-style: double;
+   border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+.paragraphContainer{
+    text-align: center;
+  
+}
+.headerContainer{
+    text-align: center;
+}
+
+.cardContainer:hover{
+    background-color: rgb(8, 34, 141);
+    color: white;
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
